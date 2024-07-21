@@ -9,6 +9,6 @@ export class SearchPage{
     }
 
     openNthProductFromList(n){
-        cy.get(this.weblocator.PRODUCT_LINK).eq(n).click()
+        cy.get(this.weblocator.PRODUCT_LINK).eq(n).invoke('removeAttr','target').click()
     }
 }

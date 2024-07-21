@@ -1,10 +1,11 @@
 import { amazonHomepage } from "../pages/Amazon/AmazonHomepage"
-import {SearchPage} from "../pages/Amazon/Searchpage"
-import {PdpPage} from "../pages/Amazon/PdpPage"
+import { SearchPage } from "../pages/Amazon/Searchpage"
+import { PdpPage } from "../pages/Amazon/PdpPage"
+
 import testData from "../../fixtures/amazontestData.json"
 
 const homepageObj = new amazonHomepage();
-const searchpageObj = new SearchPage()
+const searchpageObj = new SearchPage();
 const PdpPageObj = new PdpPage()
 
 describe('Amazon test',()=>{
