@@ -15,6 +15,7 @@ describe('Amazon test',()=>{
         homepageObj.searchProduct(testData.productName)
         searchpageObj.openNthProductFromList(2) //opening the second product
         PdpPageObj.click_Add_To_Cart()
+        PdpPageObj.close_AddToCart_drawer()
     })
 
 })
