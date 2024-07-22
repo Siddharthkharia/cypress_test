@@ -6,10 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siddharthkharia/cypress_test.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddharthkharia/cypress_test/issues"
+  },
+  "homepage": "https://github.com/Siddharthkharia/cypress_test/blob/master/README.md",
   "devDependencies": {
     "cypress": "^13.13.1",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.13.0"
   }
 }
